@@ -1,0 +1,9 @@
+{
+	"id": "com.sample.accessibility",
+	"version": "1.0.0",
+	"type": "web",
+	"main": "index.html",
+	"title": "Sample App for webOS TV Accessibility Settings",
+	"icon": "icon.png",
+	"largeIcon": "largeIcon.png"
+}

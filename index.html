@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sample App for webOS TV Accessibility Settings</title>
+    <script src="lib/webOSTVjs-1.2.4/webOSTV.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/onload.js"></script>
+  </head>
+  <body>
+    <h1>webOS TV Accessibility Settings</h1>
+    <div class="desc">
+      <h2>How to Change Accessibility Settings on TV</h2>
+      <ol>
+        <li>Press &#9881; button on your remote.</li>
+        <li>Enter into <b>General &gt; Accessibility.</b></li>
+        <li>
+          Select an item that you want to change (Audio Guidance, High Contrast,
+          Closed Caption).
+        </li>
+        <li>Press OK button to toggle the setting.</li>
+      </ol>
+    </div>
+    <h2>
+      Audio Guidance:
+      <lg_red id="audioGuidance"></lg_red>
+    </h2>
+    <h2>
+      High Contrast:
+      <lg_red id="highContrast"></lg_red>
+    </h2>
+    <div id="hc_div">
+      <table>
+        <tr>
+          <th>Col 1</th>
+          <th>Col 2</th>
+          <th>Col 3</th>
+        </tr>
+        <tr>
+          <td>Value 1</td>
+          <td>Value 2</td>
+          <td>Value 3</td>
+        </tr>
+      </table>
+    </div>
+    <h2>
+      Closed Caption:
+      <lg_red id="captionEnable"></lg_red>
+    </h2>
+  </body>
+</html>
